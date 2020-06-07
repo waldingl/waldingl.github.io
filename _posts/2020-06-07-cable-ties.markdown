@@ -3,6 +3,7 @@ layout: post
 title:  "Far Enough"
 artist: Cable Ties
 score: ★ ★ ★ ☆ ☆
+permalink: /cable-ties/far-enough/
 
 ---
 
