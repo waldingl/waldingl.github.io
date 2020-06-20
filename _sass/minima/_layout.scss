@@ -198,15 +198,18 @@
 
 .post-meta {
   font-size: $small-font-size;
+  color: $brand-color;
+}
+
+.meta-home {
   color: $grey-color;
+  font-size: $small-font-size;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
 }
-
-
 
 /**
  * Posts
@@ -217,8 +220,7 @@
 
 .post-title {
   // Modified @include relative-font-size(2.625);
-  @include relative-font-size(1.85);
-  letter-spacing: -1px;
+  @include relative-font-size(1.5);
   line-height: 1;
 
   @include media-query($on-laptop) {
